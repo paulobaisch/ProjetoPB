@@ -4,11 +4,11 @@ Instalar e configurar o Docker em um host EC2:
 Passo 1: Conecte-se à sua instância EC2
 - Use um cliente SSH (Secure Shell) para se conectar à sua instância EC2 usando a chave de acesso que você configurou durante a criação da instância.
 
-Passo 2: Atualize o sistema
+Passo 2: Atualizar o sistema
 - Antes de instalar o Docker, atualize os pacotes do sistema operacional executando o seguinte comando:
 sudo apt update
 
-Passo 3: Instale o Docker
+Passo 3: Instalar o Docker
 - Execute os seguintes comandos para instalar o Docker no seu host EC2:
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
